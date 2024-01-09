@@ -600,7 +600,7 @@
         <phase name="StatReporting"/>
     </phaseOrder>
 
-    <clustering class="org.wso2.carbon.core.clustering.hazelcast.HazelcastClusteringAgent" enable="true">
+    <clustering class="org.wso2.carbon.core.hazelcast.HazelcastClusteringAgent" enable="true">
         <parameter name="membershipScheme">dummy</parameter>
         <parameter name="membershipSchemeClassName">org.wso2.membershipScheme.dummy.DummyMembershipScheme</parameter>
     </clustering>

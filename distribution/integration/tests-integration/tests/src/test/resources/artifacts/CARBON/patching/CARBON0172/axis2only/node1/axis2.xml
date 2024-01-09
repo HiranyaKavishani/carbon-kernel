@@ -600,7 +600,7 @@
         <phase name="StatReporting"/>
     </phaseOrder>
 
-    <clustering class="org.wso2.carbon.core.clustering.hazelcast.HazelcastClusteringAgent"
+    <clustering class="org.wso2.carbon.hazelcast.HazelcastClusteringAgent"
                 enable="true">
 
         <!--
